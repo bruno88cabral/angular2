@@ -4,7 +4,7 @@
 .dpl/
 ./vscode
 client/.vscode
-server/
+server/node_modules
 client/img
 client/typings
 client/node_modules
