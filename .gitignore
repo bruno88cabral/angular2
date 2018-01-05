@@ -1,0 +1,12 @@
+.tmp
+.DS_Store
+.DS_Store?
+.dpl/
+./vscode
+client/.vscode
+server/
+client/img
+client/typings
+client/node_modules
+client/npm-debug.log
+server/npm-debug.log
