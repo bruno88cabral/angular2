@@ -1,3 +1,6 @@
-<h1 class="text-center">Alurapic</h1>
-<foto url="img/leao.jpg" titulo="Leão"></foto>
-<foto url="img/leao-branco.jpg" titulo="Leão Branco"></foto>
+<div class="jumbotron">
+    <h1 class="text-center">Alurapic</h1>
+</div>
+<div class="container">
+   <foto *ngFor="let foto of fotos" url="{{foto.url}}" titulo="{{foto.titulo}}" class="col-md-6 img-responsive"></foto>
+</div>
