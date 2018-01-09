@@ -12,10 +12,9 @@ var core_1 = require('@angular/core');
 var FiltroPorTitulo = (function () {
     function FiltroPorTitulo() {
     }
-    // tipando todos os parâmetros, inclusive o retorno
     FiltroPorTitulo.prototype.transform = function (fotos, digitado) {
-        console.log(fotos); // quem deve ser filtrado
-        console.log(digitado); // o que deve ser usado como filtro   
+        digitado = digitado.toLowerCase();
+        return fotos.filter(function (foto) { return foto.titulo.toLowerCase().includes(digitado); });
     };
     FiltroPorTitulo = __decorate([
         core_1.Pipe({

@@ -17,7 +17,7 @@ var FotoModule = (function () {
     FotoModule = __decorate([
         core_1.NgModule({
             declarations: [foto_component_1.FotoComponent, foto_pipes_1.FiltroPorTitulo],
-            exports: [foto_component_1.FotoComponent]
+            exports: [foto_component_1.FotoComponent, foto_pipes_1.FiltroPorTitulo]
         }), 
         __metadata('design:paramtypes', [])
     ], FotoModule);

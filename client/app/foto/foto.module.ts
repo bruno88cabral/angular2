@@ -4,6 +4,6 @@ import { FiltroPorTitulo } from './foto.pipes';
 
 @NgModule({
   declarations: [ FotoComponent, FiltroPorTitulo ],
-  exports: [FotoComponent]
+  exports: [FotoComponent, FiltroPorTitulo ]
 })
 export class FotoModule { }
